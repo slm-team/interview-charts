@@ -1,0 +1,9 @@
+<div class="container text-center upload-wrapper" style="padding:10px">
+    <h1>Awesome Charts</h1>
+    <div style="float:left">
+        <input type="button" (click)="goToRandom()" value="Get random data" />
+        <app-upload (uploadFinish)="onUpload($event)" (uploadStart)="uploadStart()" (uploadError)="uploadError($event)"></app-upload>
+    </div>
+</div>
+
+<app-bar-chart [data]="barData"></app-bar-chart>

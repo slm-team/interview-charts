@@ -1,0 +1,73 @@
+* text eol=crlf
+
+## SOURCE CODE
+*.bat    text
+*.coffee text
+*.css    text
+*.htm    text
+*.html   text
+*.inc    text
+*.ini    text
+*.js     text
+*.jsx    text
+*.json   text
+*.less   text
+*.php    text
+*.pl     text
+*.py     text
+*.rb     text
+*.sass   text
+*.scm    text
+*.scss   text
+*.sh     text
+*.sql    text
+*.styl   text
+*.ts     text
+*.xml    text
+*.xhtml  text
+*.cs diff=csharp
+
+## GRAPHICS
+*.ai   binary
+*.bmp  binary
+*.eps  binary
+*.gif  binary
+*.ico  binary
+*.jng  binary
+*.jp2  binary
+*.jpg  binary
+*.jpeg binary
+*.jpx  binary
+*.jxr  binary
+*.pdf  binary
+*.png  binary
+*.psb  binary
+*.psd  binary
+*.svg  text
+*.svgz binary
+*.tif  binary
+*.tiff binary
+*.wbmp binary
+*.webp binary
+
+## ARCHIVES
+*.7z  binary
+*.gz  binary
+*.rar binary
+*.tar binary
+*.zip binary
+
+## FONTS
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
+## EXECUTABLES
+*.exe binary
+*.pyc binary
+*.dll binary
+
+## DOCUMENTS
+*.xlsx binary
